@@ -1,0 +1,42 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 5, 2024, 4:41:35 PM
+    Author     : IK-36
+*/
+
+.doobert_intro {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+.doobert_intro img {
+    width: 65px;
+}
+
+.select2 {
+    width: 400px !important;
+}
+.show_hide_icon .hide {
+    display: none;
+}
+.show_hide_icon.shown .show {
+    display: none !important;
+}
+.show_hide_icon.shown .hide {
+    display: inline !important;
+}
+.show_hide_icon span {
+    cursor: pointer;
+}
+
+.logo_upload {
+    width: 500px;
+}
+.clear_logo {
+    cursor: pointer;
+    color: blue;
+}
